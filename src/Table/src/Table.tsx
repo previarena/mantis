@@ -95,7 +95,7 @@ const useStyles = makeStyles({
     loadingText: 'Cargando datos, por favor espere...'
   }
 
-interface ITable {
+export interface ITable {
     readonly headers: ReadonlyArray<IHeader>
     readonly data: ReadonlyArray<any>
     readonly isLoading: Boolean
