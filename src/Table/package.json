@@ -8,7 +8,8 @@
     "publishConfig": {
         "access": "public"
     },
-    "typings": "src/typings",
+    "types": "types/index.d.ts",
+    "typings": "dist/index.d.ts",
     "scripts": {
         "build": "cross-env webpack -p --config ../../webpack.config.js",
         "clean": "rimraf dist && rimraf node_modules && rimraf package-lock.json",
