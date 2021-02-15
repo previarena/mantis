@@ -1,3 +1,3 @@
 import { ITable } from './../Table'
 
-export const Table: ITable
+declare const Table: ITable
