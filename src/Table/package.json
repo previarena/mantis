@@ -3,15 +3,15 @@
     "description": "Table component",
     "version": "1.8.2",
     "license": "MIT",
-    "author": "Audrius Navickas",
-    "main": "dist/index.ts",
+    "author": "Aníbal Rodríguez",
+    "main": "dist/index.js",
+    "typings": "dist/index.d.ts",
+    "types": "dist/index.d.ts",
     "publishConfig": {
         "access": "public"
     },
-    "types": "types/index.d.ts",
-    "typings": "dist/index.d.ts",
     "scripts": {
-        "build": "cross-env webpack -p --config ../../webpack.config.js",
+        "build": "cross-env webpack -p --config ../../webpack.config.js && tsc -p tsconfig.json",
         "clean": "rimraf dist && rimraf node_modules && rimraf package-lock.json",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
