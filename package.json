@@ -1,0 +1,46 @@
+{
+  "name": "mantis",
+  "version": "0.1.0",
+  "description": "UI Components Library for Previred 2021",
+  "main": "index.js",
+  "scripts": {
+    "build:components": "lerna bootstrap && lerna exec npm run \"build\"",
+    "clean:components": "lerna exec npm run \"clean\"",
+    "publish:components": "lerna publish",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "start-storybook -p 9001 -c .storybook",
+    "build-storybook": "build-storybook"
+  },
+  "author": "Aníbal Rodríguez",
+  "publishConfig": {
+    "registry": "http://nexus.previred.com/repository/npmjs-private/"
+  },
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "@material-ui/core": "^4.11.3",
+    "@storybook/addon-actions": "^6.1.17",
+    "@storybook/addon-docs": "^6.1.17",
+    "@storybook/addon-essentials": "^6.1.17",
+    "@storybook/addon-knobs": "^6.1.17",
+    "@storybook/addon-links": "^6.1.17",
+    "@storybook/react": "^6.1.17",
+    "autoprefixer": "^9.4.7",
+    "babel-loader": "^8.0.5",
+    "cross-env": "^5.2.0",
+    "css-loader": "^2.1.0",
+    "lerna": "^3.13.0",
+    "node-sass": "^5.0.0",
+    "postcss-loader": "^3.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "styled-components": "^5.2.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {}
+}
