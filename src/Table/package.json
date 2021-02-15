@@ -1,7 +1,7 @@
 {
     "name": "@mantis/table",
     "description": "Table component",
-    "version": "1.0.4",
+    "version": "1.0.0",
     "license": "MIT",
     "author": "Audrius Navickas",
     "main": "dist/index.js",
@@ -17,5 +17,6 @@
     "peerDependencies": {
         "react": "^17.0.1",
         "react-dom": "^17.0.1"
-    }
+    },
+    "gitHead": "7346f5191d4ed38afffc738d9796c994a8b2a080"
 }
