@@ -1,12 +1,12 @@
 {
   "name": "mantis",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "UI Components Library for Previred 2021",
   "main": "index.js",
   "scripts": {
     "build:components": "lerna bootstrap && lerna exec npm run \"build\"",
     "clean:components": "lerna exec npm run \"clean\"",
-    "publish:components": "lerna publish from-package",
+    "publish:components": "lerna publish",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "start-storybook -p 9001 -c .storybook",
     "build-storybook": "build-storybook"
