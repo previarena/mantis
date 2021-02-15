@@ -3,7 +3,7 @@
     "npmClient": "npm",
     "version": "independent",
     "packages": ["src/**/*"],
-    "registry": "https://registry.npmjs.org/",
+    "registry": "http://nexus.previred.com/repository/npmjs-private/",
     "command": {
         "publish": {
             "ignoreChanges": ["*.md", "tests/*", "ignored-files"]
