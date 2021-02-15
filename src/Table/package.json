@@ -1,13 +1,12 @@
 {
     "name": "@mantis/table",
     "description": "Table component",
-    "version": "1.0.0",
+    "version": "1.2.0",
     "license": "MIT",
     "author": "Audrius Navickas",
-    "main": "dist/index.js",
+    "main": "dist/index.ts",
     "publishConfig": {
-        "access": "public",
-        "registry": "http://nexus.previred.com/repository/npmjs-private/"
+        "access": "public"
     },
     "scripts": {
         "build": "cross-env webpack -p --config ../../webpack.config.js",
@@ -16,7 +15,8 @@
     },
     "peerDependencies": {
         "react": "^17.0.1",
-        "react-dom": "^17.0.1"
+        "react-dom": "^17.0.1",
+        "typescript": "^4.1.5"
     },
     "gitHead": "7346f5191d4ed38afffc738d9796c994a8b2a080"
 }

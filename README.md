@@ -7,8 +7,10 @@
 ## Publishing
 **Note:** before publishing packages, you must have npm account and setup organization in order to publish scoped packages.
 
-1. Build components by running `yarn build:components` command;
-2. Publish components by running `yarn publish:components` command.
+1. To publish, first make sure you have permissions to http://nexus.previred.com
+2. Change auth hash in .npmrc file, with your credentials. The hash is user:pass to base64
+3. Build components by running `npm run build:components` command;
+4. Publish components by running `npm run publish:components` command.
 
 ## Development
 - Create new component under `src` directory;

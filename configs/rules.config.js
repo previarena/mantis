@@ -21,12 +21,12 @@ const rules = [
         ],
     },
     {
-        test: /\.(js|jsx)$/,
+        test: /\.(js|jsx|ts|tsx)$/,
         exclude: /node_modules/,
         use: {
             loader: "babel-loader",
             options: {
-                presets: ['@babel/preset-env', '@babel/react']
+                presets: ['@babel/preset-env', '@babel/react', '@babel/typescript']
             }
         }
     }

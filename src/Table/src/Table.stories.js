@@ -1,6 +1,6 @@
 import React from "react";
 import Table from '@mantis/table';
-import ThemeKnob from "./../../Themes/ThemeKnob";
+import ThemeKnob from "../../Themes/ThemeKnob";
 import { withKnobs } from "@storybook/addon-knobs";
 
 export const Simple = (args) => {

@@ -1,4 +1,4 @@
-# Button component
+# Table component
 
 ## Usage
-Import component with: `import Button from '@audnavlib/button';`
+Import component with: `import Table from '@mantis/table';`

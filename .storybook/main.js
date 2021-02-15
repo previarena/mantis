@@ -1,6 +1,5 @@
-const path = require('path');
 const rules = require('../configs/rules.config');
-const aliases = require('./../configs/aliases.config')
+const aliases = require('../configs/aliases.config')
 
 module.exports = {
   stories: [
@@ -11,6 +10,9 @@ module.exports = {
     '@storybook/addon-docs',  
     '@storybook/addon-knobs/register'
   ],
+  typescript:{
+    check: false
+  },
   webpackFinal: async (config) => {
     return {
       ...config,

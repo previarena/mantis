@@ -12,7 +12,7 @@ import {
     LinearProgress,
     makeStyles
 } from '@material-ui/core'
-import { IJSON } from './../../Types/common/IJson';
+import { IJSON } from '../../Types/common/IJson';
 
 export interface IHeader {
     readonly displayTitle: String
