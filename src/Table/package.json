@@ -1,7 +1,7 @@
 {
     "name": "@mantis/table",
     "description": "Table component",
-    "version": "1.8.1",
+    "version": "1.8.2",
     "license": "MIT",
     "author": "Audrius Navickas",
     "main": "dist/index.ts",
